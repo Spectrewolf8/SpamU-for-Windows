@@ -11,6 +11,7 @@ customtkinter.set_default_color_theme("green")  # Themes: "blue" (standard), "gr
 win = customtkinter.CTk()
 win.geometry("620x550")
 win.title("SpamU")
+win.resizable(False, False)
 photo = PhotoImage(file="swaggy-trollface-man.png")
 win.iconphoto(False, photo)
 
@@ -84,6 +85,7 @@ spamProgressBarLabel = customtkinter.CTkLabel(master=frame_1, text="Progress:",
                                               font=customtkinter.CTkFont(size=12, weight="bold"),
                                               justify=customtkinter.LEFT)
 spamProgressBarLabel.place(x=80, y=370)
+
 
 ##########################
 
