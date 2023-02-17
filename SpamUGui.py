@@ -115,6 +115,7 @@ def startSpammingButton_callback():
     # keyboard.wait('shift + enter')
     spammer.startOperation(spamTextBox.get("1.0", END), statusTextBox, win, spamProgressBar)
     exitOnEnter_callback(None, spammer)
+    pressEnterToExitLabel.destroy()
 
 
 # define the countdown func.
