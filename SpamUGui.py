@@ -149,10 +149,7 @@ startSpammingButton.place(x=100, y=330)
 # guide label
 guideLabel = customtkinter.CTkLabel(master=frame_1,
                                     text="Defaults:\n  delayBeforeStart - 15s\n  numberOfTextsToSpam - "
-                                         "50\n  delayBetweenEachText - 1s\n\n\n\n\n\n⚠ Safe mode: disables "
-                                         "interactions till "
-                                         "operation completion and lets you break operation midway ("
-                                         "RECOMMENDED)\n\n⚠ Warning:\nImmediately select the desired text field to SPAM"
+                                         "50\n  delayBetweenEachText - 1s\n\n\n\n\n\n\n\n\n\n⚠ Warning:\nImmediately select the desired text field to SPAM"
                                          " right after "
                                          "pressing start button",
                                     font=customtkinter.CTkFont(size=12, weight="normal"), text_color="yellow",
