@@ -12,8 +12,7 @@ win = customtkinter.CTk()
 win.geometry("620x550")
 win.title("SpamU")
 win.resizable(False, False)
-photo = PhotoImage(file="swaggy-trollface-man.png")
-win.iconphoto(False, photo)
+win.iconbitmap("swaggy-trollface-man.ico")
 
 # main frame
 frame_1 = customtkinter.CTkFrame(master=win)
