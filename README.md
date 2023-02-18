@@ -15,6 +15,17 @@ Moreover, You can decide the delay before starting spam(activates after [Star Sp
 
 Default values are used when any parameter text field is left empty.
 
+**It is recommended that you have target window and SpamU window in view as you start Spam** 
+
+![image](https://user-images.githubusercontent.com/69973760/219850070-6170509d-ce07-42bc-b27d-74ebd9caefc6.png)
+
+###
+
+
+## SpamU executable Application
+Appliction files lie inside [App directory](https://github.com/Spectrewolf8/SpamU-for-Windows/blob/master/App).
+
+Path to intended executable is ```SpamU-for-Windows/App/dist/SpamU/SpamU.exe```
 ###
 
 
