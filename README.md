@@ -17,7 +17,9 @@ Default values are used when any parameter text field is left empty.
 
 **It is recommended that you have target window and SpamU window in view as you start Spam** 
 
-![image](https://user-images.githubusercontent.com/69973760/219850070-6170509d-ce07-42bc-b27d-74ebd9caefc6.png)
+
+![image](https://user-images.githubusercontent.com/69973760/219851445-af573675-f0f8-4ea4-b899-c824752aa1e7.png)
+
 
 ###
 
