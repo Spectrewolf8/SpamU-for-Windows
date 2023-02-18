@@ -40,10 +40,11 @@ Required packages are as:
 - pyautogui
 - pyperclip
 - keyboard
+- pyinstaller (to build .exe file from python files) [optional]
 
 Required packages can be accquired by using this command:
 ```
-pip install tkinter customtkinter time pyautogui pyperclip keyboard
+pip install tkinter customtkinter time pyautogui pyperclip keyboard pyinstaller
 ```
 ###
 
