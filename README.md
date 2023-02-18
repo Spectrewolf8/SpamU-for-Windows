@@ -49,11 +49,13 @@ pip install tkinter customtkinter time pyautogui pyperclip keyboard
 
 
 ### Pyinstaller Cmd to build .exe file from python files
+
 You need to do ```ALT + F + S + A```  in the directory which has ``SpamUGUI.py``,``Spammer.py``,and ``swaggy-trollface-man.ico`` to open privilaged powershell terminal in that directory and then paste your version of cmd/script which is as follows:
+
 ```
  pyinstaller --noconfirm --onedir --windowed --icon "{directory}/swaggy-trollface-man.ico" --add-data "{directory}Spammer.py;." --add-data "C:/Users/{your username}/AppData/Local/Programs/Python/Python311/Lib/site-packages/customtkinter;customtkinter/" --add-data "{directory}/swaggy-trollface-man.ico;."  "{directory}/SpamUGUI.py"
 
- # replace directory with your own directory where the files are kept
+ # replace {directory} and {your username} with your own directory where the files are kept, and your own username
 ```
 ###
 
