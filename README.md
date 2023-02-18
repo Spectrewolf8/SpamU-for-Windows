@@ -43,4 +43,8 @@ Required packages can be accquired by using this command:
 ```
 pip install tkinter customtkinter time pyautogui pyperclip keyboard
 ```
+###
 
+
+### SpamU for Linux
+SpamU for linux can be found [here](https://github.com/Spectrewolf8/SpamU)
